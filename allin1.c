@@ -3,8 +3,7 @@
 int main() {
     for (int i = 0; i < 15; i++) {           // Loop from 0 to 14
         if (i == 5) {
-            break;
-            continue;                          
+            break;                 
         printf("i is %d\n", i);               // Print the current value of `i`
     }
 
